@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id = "com.rodo.canvas"
+	version = "1.0.0">
+
+	<name>Prueba de canvas</name>
+	<description>Prueba de canvas</description>
+	<author>Rodo</author>
+ 
+	<preference name="phonegap-version" value="cli-6.0.0" /> <!-- all: current version of PhoneGap -->
+	<preference name="android-minSdkVersion" value="10" />
+	<preference name = "orientation" value = "default"/>
+	<preference name = "target-device" value = "universal"/>
+	<preference name = "fullscreen" value = "false"/>
+	<preference name="autorotate" value="false" readonly="true"/>
+	<icon src = "icon.png"/>
+
+	<gap:platform name="android" />
+	<!-- gap:platform name="ios" / -->
+</widget>
+
